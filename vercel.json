@@ -1,9 +1,0 @@
-{
-  "version": 2,
-  "cleanUrls": true,
-  "trailingSlash": true,
-  "routes": [
-    { "src": "/", "status": 302, "headers": { "Location": "/sitio-a/" } },
-    { "src": "/(.*)", "dest": "/$1" }
-  ]
-}
